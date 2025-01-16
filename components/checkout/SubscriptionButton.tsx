@@ -20,4 +20,3 @@ const SubscribeButton = ({ planId }: { planId: string }) => {
 };
 
 export default SubscribeButton;
-

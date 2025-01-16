@@ -3,7 +3,7 @@ import ManageSubscriptionButton from "@/components/ManageSubscriptionButton";
 import { supabaseServer } from "@/utils/supabaseServer";
 
 const DashBoard = async () => {
-  const supabase = supabaseServer();
+  const supabase = await supabaseServer();
 
   const getProfileData = async () => {
     const { data: profile } = await supabase
